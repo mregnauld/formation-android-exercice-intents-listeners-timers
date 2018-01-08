@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	tools:context="com.formationandroid.intentslistenerstimers.SaisieActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/libelle_decompte"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/saisie_marge_vue"
+			android:text="@string/saisie_libelle_decompte"
+			android:textColor="@android:color/black"
+			android:textSize="@dimen/saisie_taille_libelle"/>
+
+		<EditText
+			android:id="@+id/saisie_decompte"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/saisie_marge_vue"
+			android:digits="0123456789"
+			android:hint="@string/saisie_hint_decompte"
+			android:inputType="number|none"
+			android:textColor="@android:color/black"
+			android:textSize="@dimen/saisie_taille_libelle"/>
+
+		<Button
+			android:id="@+id/bouton_valider"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/saisie_marge_vue"
+			android:background="@color/couleurSaisieFondBouton"
+			android:onClick="onClickBoutonValider"
+			android:text="@string/saisie_bouton_valider"
+			android:textColor="@android:color/white"
+			android:textSize="@dimen/saisie_taille_libelle"/>
+
+	</LinearLayout>
+
+</ScrollView>

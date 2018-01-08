@@ -1,0 +1,17 @@
+<resources>
+
+	<!-- Commun -->
+	<string name="app_name">Intents Listeners Timers</string>
+
+	<!-- Main -->
+	<string name="main_libelle_creer_decompte">Créer un décompte</string>
+	<string name="main_envoyer_decompte">Envoyer décompte</string>
+	<string name="main_message_decompte">Décompte de %1$d secondes</string>
+
+	<!-- Saisie -->
+	<string name="saisie_libelle_decompte">Nombre de secondes :</string>
+	<string name="saisie_hint_decompte">123</string>
+	<string name="saisie_bouton_valider">Lancer décompte</string>
+	<string name="saisie_message_erreur">Merci de saisir un nombre</string>
+
+</resources>
